@@ -1,0 +1,31 @@
+{
+    "name": "codecept",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "cucumber-js -f json:cucumber_report.json",
+        "codeceptjs": "codeceptjs run --steps",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+        "codeceptjs:ui": "codecept-ui --app",
+        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples",
+        "report": "node report.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@codeceptjs/configure": "^0.7.0",
+        "@codeceptjs/examples": "^1.2.1",
+        "@codeceptjs/ui": "^0.4.6",
+        "codeceptjs": "^3.1.1",
+        "playwright": "^1.14.1",
+        "puppeteer": "^10.2.0"
+    },
+    "dependencies": {
+        "codeceptjs-cucumber-json-reporter": "^1.0.7",
+        "cucumber": "^7.0.0-rc.0",
+        "cucumber-html-reporter": "^5.5.0"
+    }
+}

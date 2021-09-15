@@ -1,0 +1,170 @@
+[
+  {
+    "description": "  Verify login functionality to work",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "Login.feature",
+    "tags": [],
+    "elements": [
+      {
+        "executed": true,
+        "id": "Perfom_Login_operation",
+        "keyword": "Scenario",
+        "name": "Perfom Login operation",
+        "type": "scenario",
+        "line": 4,
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the application",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4809000000
+            },
+            "arguments": [],
+            "embeddings": [],
+            "start_time": 1630471942610,
+            "end_time": 1630471947419
+          },
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login with username and password",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2301000000
+            },
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "UserName",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "espinosagu@globalhitss.com",
+                      "AB2fRcK#Uex!nQ"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "embeddings": [],
+            "start_time": 1630471947419,
+            "end_time": 1630471949720
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            },
+            "arguments": [],
+            "embeddings": [],
+            "start_time": 1630471949720,
+            "end_time": 1630471949891
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login Succesfully",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 689000000
+            },
+            "arguments": [],
+            "embeddings": [],
+            "start_time": 1630471949891,
+            "end_time": 1630471950580
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "Click registro diario de sintomas",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2588000000
+            },
+            "arguments": [],
+            "embeddings": [],
+            "start_time": 1630471950580,
+            "end_time": 1630471953168
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "Llenar formualrio",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1954000000
+            },
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Temperatura",
+                      "Oximetria"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "36.50",
+                      "99"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "embeddings": [],
+            "start_time": 1630471953168,
+            "end_time": 1630471955122
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "Save formulario",
+            "match": {
+              "location": "unavailable"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            },
+            "arguments": [],
+            "embeddings": [],
+            "start_time": 1630471955122,
+            "end_time": 1630471955490
+          }
+        ]
+      }
+    ],
+    "uri": "features/Login.feature"
+  }
+]
